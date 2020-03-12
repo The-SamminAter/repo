@@ -24,9 +24,9 @@ echo "Architecture: iphoneos-arm" >> Packages
 echo "Version: $VVAL" >> Packages
 echo "Filename: debs//$FNAME" >> Packages
 echo "Size: $FSIZE" >> Packages
-echo "MD5sum: $(md5sum $FNAME)" >> Packages
-echo "SHA1: $(shasum $FNAME)" >> Packages
-echo "SHA256: $(shasum -a 256 $FNAME)" >> Packages
+echo "MD5sum: $(md5sum debs/$FNAME)" >> Packages
+echo "SHA1: $(shasum debs/$FNAME)" >> Packages
+echo "SHA256: $(shasum -a 256 debs/$FNAME)" >> Packages
 echo "Description: $TDESC" >> Packages
 echo "Name: $TNAME" >> Packages
 echo "Author: $ANAME" >> Packages
