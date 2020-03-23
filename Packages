@@ -2,12 +2,12 @@ Package: com.the-samminater.disablescreentime
 Section: Tweaks
 Maintainer: The-SamminAter
 Architecture: iphoneos-arm
-Version: 1.1b
-Filename: debs//com.the-samminater.disablescreentime_1.1b_iphoneos-arm.deb
-Size: 930
-MD5sum: 38858f86a4328920e07857578dde5382
-SHA1: 4d9c5fb0df1a0ae861346613895db3439cf0c8c6
-SHA256: d0b95d77c3d49b10b2fe955631e7894f9f11cc3b1ed139074dbec723ef72e21f
+Version: 1.2
+Filename: debs//com.the-samminater.disablescreentime_1.2_iphoneos-arm.deb
+Size: 1104
+MD5sum: ad384d643af9ccfe3fd9fb81c1c70762
+SHA1: dbd5c4626c5894bc22b247a2ac783dda8c191a23
+SHA256: 7f543766210c8e54306f761731a5504d9c89bf3a81d4a5da72faa124661128e9
 Description: A script that disables screentime.
 Name: Disable Screentime
 Author: The-SamminAter
