@@ -1,6 +1,5 @@
 Package: com.the-samminater.disablescreentime
 Section: Tweaks
-Maintainer: The-SamminAter
 Architecture: iphoneos-arm
 Version: 2.1
 Filename: debs//com.the-samminater.disablescreentime_2.1_iphoneos-arm.deb
@@ -11,3 +10,18 @@ SHA256: 6aa3d88dde9bcb5f611c6f08dd2abbff64724b7432133e16d1c2dba77fa9e1ba
 Description: A script that disables screentime.
 Name: Disable Screentime
 Author: The-SamminAter
+Maintainer: The-SamminAter
+
+Package: com.rileytestut.AltStore.Beta
+Section: Tweaks
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>= 12.2)
+Version: 1.4b4
+Filename: debs//com.rileytestut.AltStore.Beta_1.4b4_iphoneos-arm.deb
+Size: 3065732
+MD5sum: f9bf66e1875029a962d7ca9224653aaa
+SHA1: C360B51E54DDFB9B746774C0E69032A2C685DAB5
+SHA256: 1E043CFDAA0DD6835F20B559A4888A5E712F87FFA2C4AF5B66D1F7912B93F5C8
+Description: AltStore Beta, for use with AltDaemon
+Name: AltStore Beta
+Author: Riley Testut
