@@ -1,5 +1,5 @@
 Package: com.the-samminater.disablescreentime
-Section: Tweaks
+Section: Utilities
 Architecture: iphoneos-arm
 Version: 2.1
 Filename: debs//com.the-samminater.disablescreentime_2.1_iphoneos-arm.deb
@@ -13,7 +13,7 @@ Author: The-SamminAter
 Maintainer: The-SamminAter
 
 Package: com.rileytestut.AltStore.Beta
-Section: Tweaks
+Section: Apps
 Architecture: iphoneos-arm
 Pre-Depends: firmware (>= 12.2)
 Version: 1.4b4
@@ -27,7 +27,7 @@ Name: AltStore Beta
 Author: Riley Testut
 
 Package: com.rileytestut.AltStore.Beta
-Section: Tweaks
+Section: Apps
 Architecture: iphoneos-arm
 Pre-Depends: firmware (>= 12.2)
 Version: 1.4b8
@@ -38,4 +38,18 @@ SHA1: C454EBEB60AF870EFE3F87FDB86D4330B401FE75
 SHA256: EEA573EE75ED10B3330AA9C63CF7B80BACE374724E85ABEEC47F91B0DEF6BAAC
 Description: AltStore Beta, for use with AltDaemon
 Name: AltStore Beta
+Author: Riley Testut
+
+Package: com.rileytestut.AltStore
+Section: Apps
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>= 12.2)
+Version: 1.4
+Filename: debs//com.rileytestut.AltStore_1.4_iphoneos-arm.deb
+Size: 4725374
+MD5sum: 871f75b3696965b0291172dca71cb408
+SHA1: F8E54FF75B6BDD02A52AC03A023D329956247306
+SHA256: 953698A7A3E14618DA0E19DEC59BB39A3B50A79ABD8FD6AA6BF5807819E2E02B
+Description: AltStore, for use with AltDaemon
+Name: AltStore
 Author: Riley Testut
