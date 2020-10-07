@@ -25,3 +25,17 @@ SHA256: 1E043CFDAA0DD6835F20B559A4888A5E712F87FFA2C4AF5B66D1F7912B93F5C8
 Description: AltStore Beta, for use with AltDaemon
 Name: AltStore Beta
 Author: Riley Testut
+
+Package: com.rileytestut.AltStore.Beta
+Section: Tweaks
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>= 12.2)
+Version: 1.4b8
+Filename: debs//com.rileytestut.AltStore.Beta_1.4b8_iphoneos-arm.deb
+Size: 51800092
+MD5sum: 1124c09c72c92557192939bbcc47683c
+SHA1: C454EBEB60AF870EFE3F87FDB86D4330B401FE75
+SHA256: EEA573EE75ED10B3330AA9C63CF7B80BACE374724E85ABEEC47F91B0DEF6BAAC
+Description: AltStore Beta, for use with AltDaemon
+Name: AltStore Beta
+Author: Riley Testut
