@@ -53,3 +53,20 @@ SHA256: 953698A7A3E14618DA0E19DEC59BB39A3B50A79ABD8FD6AA6BF5807819E2E02B
 Description: AltStore, for use with AltDaemon
 Name: AltStore
 Author: Riley Testut
+
+Package: ldid
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Version: 2:2.1.2.7+g5420cb5q-2
+Filename: debs//ldid_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
+Size: 66236
+MD5sum: 29a63f6d6ea547ebaa748b6a71003fb4
+SHA1: 03d2824eb894c81ef28837a6a72e78c5bc9a59ca
+SHA256: a6a94ee5b193bedaa9bc36fcb05d1acdfcda4ac87a795693f8eb2fc8f09e2c1f
+Description: pseudo-codesign Mach-O files
+Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
