@@ -44,15 +44,15 @@ Architecture: iphoneos-arm
 Version: 10-1
 Section: MCApollo
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libusb-1.0-0, openssl
+Depends: libusb, openssl
 Name: Android Debug Bridge
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: debs/adb_10-1_iphoneos-arm.deb
 Installed-Size: 1120
-Size: 338844
-MD5sum: 989efb5a57a9e21cd3b5ae7770daa26a
-SHA1: d01ec82e45329367a1477a46764694bebcfa57b7
-SHA256: b5599787f2549cf2e1fce6627861095f3280a97309a39f81ecbd6eda738c578e
+Size: 338830
+MD5sum: 82be76c4796ee178a5aac649aee8d1c5
+SHA1: 29cab275d7fc5ae0f2ec6c41fde55dc277f82ffe
+SHA256: a0e44d834a2d9483be67ff01ac6785bbd68f4631634d404e9c48683556a538f9
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
 Package: adb
@@ -60,15 +60,15 @@ Architecture: iphoneos-arm
 Version: 10-2
 Section: MCApollo
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libusb-1.0-0, openssl
+Depends: libusb, openssl
 Name: Android Debug Bridge
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: debs/adb_10-2_iphoneos-arm.deb
 Installed-Size: 876
-Size: 287732
-MD5sum: fba9ea7a1122c07c91ae5bab20fda2eb
-SHA1: 590a4aa1cb56340b0faf2b245fdbf1f8715670da
-SHA256: 713b2f03a0e51b34f466f7524355dbaf2e0125cc035d6c3e647cad2a9ded7062
+Size: 287726
+MD5sum: 06f1c9b086945880714289078286a0e5
+SHA1: 51cb6e4511664c15041dc2eb7320c59df7d4156b
+SHA256: 2c22cf9d3aa4e41a6e7f3b56732141608fbc390bf9126549c40d2ff7cd5c7440
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
 Package: adb
@@ -76,15 +76,15 @@ Architecture: iphoneos-arm
 Version: 10-3
 Section: MCApollo
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libusb-1.0-0, openssl
+Depends: libusb, openssl
 Name: Android Debug Bridge
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: debs/adb_10-3_iphoneos-arm.deb
 Installed-Size: 876
-Size: 287734
-MD5sum: c653c83fac876e8039a4d7904e614799
-SHA1: 352375b22f9b1b62e4d0a0eccedb4e598b8e32db
-SHA256: 7b9d88970dcea00ada7ff2a836a24631270478b13c005e706ac7f51a63942bd8
+Size: 287724
+MD5sum: 3d6baf4642255ecbb8c65601c904e581
+SHA1: 2ccb9e1fae0cc702e2e27cbf4864b574911b7cf0
+SHA256: ed059875d7a61f9ebb4a9bde9f60baa6f088b5054c3341cd59e053da8967c677
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
 Package: adb
@@ -92,15 +92,15 @@ Architecture: iphoneos-arm
 Version: 10-4
 Section: MCApollo
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libusb-1.0-0, openssl
+Depends: libusb, openssl
 Name: Android Debug Bridge
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: debs/adb_10-4_iphoneos-arm.deb
 Installed-Size: 876
-Size: 287730
-MD5sum: 25645828cabdc6bf5197883d7d8a0ff9
-SHA1: 052094bd53f2ee65ebcd2f35f8f6956ae5251584
-SHA256: 15f8d4c76fe7962c16de056031ae657c85d55047057c1ace8d44247b3159665f
+Size: 287728
+MD5sum: 462044aa07717dcf8061bf0e59c70020
+SHA1: 15e2ffc52da595dbe6370aa682facb6f75a7e984
+SHA256: 303adac24eda66a959100bd8d97a4ff3417e3b162507af9e4a7026aa9df36c7c
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
 Package: adb
@@ -108,15 +108,60 @@ Architecture: iphoneos-arm
 Version: 10-5
 Section: MCApollo
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libusb-1.0-0, openssl
+Depends: libusb, openssl
 Name: Android Debug Bridge
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: debs/adb_10-5_iphoneos-arm.deb
 Installed-Size: 876
-Size: 287730
-MD5sum: 3d33327537b9e264809155b08dd17725
-SHA1: c07ca732508323c143625f2ca7ec7a4c071c88b0
-SHA256: 62f9b76e3a4c1c2131021bfe2f1bcd69dc12b4f68399ce1964ac4b5950164813
+Size: 287726
+MD5sum: 1a0b74520f50001080ddcc7eed202225
+SHA1: c5b2f174d4f6242920fa07606369c47c6e9d33b3
+SHA256: 5650b04f19362ae96f56b8efa9e6fc6ffe96277f29c3704456363a48b0dc1955
+Maintainer: Mac C. <MCApollo@protonmail.com>
+
+Package: libusb
+Architecture: iphoneos-arm
+Version: 1.0.23-1
+Section: MCApollo
+Pre-Depends: dpkg (>= 1.14.25-8)
+Name: libusb
+Description: Library for USB device access
+Filename: debs/libusb_1.0.23-1_iphoneos-arm.deb
+Installed-Size: 220
+Size: 59842
+MD5sum: 3ae2c275d92997668f09ebc4fff61dc6
+SHA1: 0150b82b21554b5aff96682b1b59797a8c5494c5
+SHA256: 996801b5d02eae9e62e196493fe779c56915cfb22ffd33b5f66b2f8e5c4322dc
+Maintainer: Mac C. <MCApollo@protonmail.com>
+
+Package: libusb
+Architecture: iphoneos-arm
+Version: 1.0.23-2
+Section: MCApollo
+Pre-Depends: dpkg (>= 1.14.25-8)
+Name: libusb
+Description: Library for USB device access
+Filename: debs/libusb_1.0.23-2_iphoneos-arm.deb
+Installed-Size: 220
+Size: 59786
+MD5sum: 0e04da839fc0d4d751094a078d3ba131
+SHA1: 3ee3910948c4a8ad7478395d3f500b3a8dec7e2e
+SHA256: a8839c5f3384046b09b303391670e4bee929a2afd24e0f129382727a258f8fa0
+Maintainer: Mac C. <MCApollo@protonmail.com>
+
+Package: libusb
+Architecture: iphoneos-arm
+Version: 1.0.23-3
+Section: MCApollo
+Pre-Depends: dpkg (>= 1.14.25-8)
+Name: libusb
+Description: Library for USB device access
+Filename: debs/libusb_1.0.23-3_iphoneos-arm.deb
+Installed-Size: 224
+Size: 59866
+MD5sum: 9c2400c55ccaaeaac5d08afed6f876f8
+SHA1: 6cab561d1817f89881918dffe592138e68adab1b
+SHA256: ae956aa4d3de06d7ecbdefa73d3c9dd9ff352329a034649a586ed828c5b4a4d2
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
 Package: libncursesw6
