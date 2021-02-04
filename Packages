@@ -1,72 +1,163 @@
 Package: com.the-samminater.disablescreentime
-Section: Utilities
 Architecture: iphoneos-arm
 Version: 2.1
-Filename: debs//com.the-samminater.disablescreentime_2.1_iphoneos-arm.deb
+Section: Utilities
+Name: Disable Screentime
+Description: A script that disables screentime.
+Filename: debs/com.the-samminater.disablescreentime_2.1_iphoneos-arm.deb
 Size: 1184
 MD5sum: 73842f848eb2455ce7c6c5f5fa17ddfc
 SHA1: 7ab3e9823ccf6d2d127157a193ec60eb60e6e2f9
 SHA256: 6aa3d88dde9bcb5f611c6f08dd2abbff64724b7432133e16d1c2dba77fa9e1ba
-Description: A script that disables screentime.
-Name: Disable Screentime
 Author: The-SamminAter
 Maintainer: The-SamminAter
 
-Package: com.rileytestut.AltStore.Beta
-Section: Apps
+Package: pojavlauncher
 Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 12.2)
-Version: 1.4b4
-Filename: debs//com.rileytestut.AltStore.Beta_1.4b4_iphoneos-arm.deb
-Size: 3065732
-MD5sum: f9bf66e1875029a962d7ca9224653aaa
-SHA1: C360B51E54DDFB9B746774C0E69032A2C685DAB5
-SHA256: 1E043CFDAA0DD6835F20B559A4888A5E712F87FFA2C4AF5B66D1F7912B93F5C8
-Description: AltStore Beta, for use with AltDaemon
-Name: AltStore Beta
-Author: Riley Testut
+Version: 02.02.2021
+Section: PojavLauncher
+Depends: openjdk-16-jre
+Name: PojavLauncher
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Filename: debs/pojavlauncher_02.02.2021_iphoneos-arm.deb
+Size: 12754642
+MD5sum: 430fdd8a130077a23def38db1a8d2e1d
+SHA1: 5389dbf359a6bcdf9e8fad55c69bbe49150cebb1
+SHA256: fa09273f4aab6c1c0c229a2c817220d9de628c997b969a7d89a147146eedabd4
+Maintainer: DuyKhanhTran
 
-Package: com.rileytestut.AltStore.Beta
-Section: Apps
+Package: openjdk-16-jre
 Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 12.2)
-Version: 1.4b8
-Filename: debs//com.rileytestut.AltStore.Beta_1.4b8_iphoneos-arm.deb
-Size: 51800092
-MD5sum: 1124c09c72c92557192939bbcc47683c
-SHA1: C454EBEB60AF870EFE3F87FDB86D4330B401FE75
-SHA256: EEA573EE75ED10B3330AA9C63CF7B80BACE374724E85ABEEC47F91B0DEF6BAAC
-Description: AltStore Beta, for use with AltDaemon
-Name: AltStore Beta
-Author: Riley Testut
+Version: 16.0.0
+Section: PojavLauncher
+Name: OpenJDK 16 JRE
+Description: OpenJDK 16 for iOS 12+
+Filename: debs/openjdk-16-jre_16.0.0
+Size: 58097262
+MD5sum: 48bfa0532fcb842828ee517cc1be7135
+SHA1: 7e57fe12ad9fd9ec64c43b04033eae50cf3323ef
+SHA256: e05b4bf292c3a32fec0f73378933bf3bd5e8253e89eb91460629967e7079f4e2
+Maintainer: Hayden Seay
 
-Package: com.rileytestut.AltStore
-Section: Apps
+Package: libncursesw6
 Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 12.2)
-Version: 1.4
-Filename: debs//com.rileytestut.AltStore_1.4_iphoneos-arm.deb
-Size: 4725374
-MD5sum: 871f75b3696965b0291172dca71cb408
-SHA1: F8E54FF75B6BDD02A52AC03A023D329956247306
-SHA256: 953698A7A3E14618DA0E19DEC59BB39A3B50A79ABD8FD6AA6BF5807819E2E02B
-Description: AltStore, for use with AltDaemon
-Name: AltStore
-Author: Riley Testut
+Version: 6.2-1
+Section: Procursus
+Depends: ncurses
+Name: FAKE/EMPTY libncursesw6
+Description: Fake/empty dependency for Procursus packages
+Filename: debs/fake_libncursesw6_6.2-1_iphoneos-arm.deb
+Size: 582
+MD5sum: 466672bb31a6788fdfc65fa2be8ec3d4
+SHA1: 67b93835b88e734e0628d4129b90c7b85c8d94ed
+SHA256: 1c5cee22983b962c5b34771ce40e1530a1b8c77ed1021edda0eff0c156237602
 
-Package: ldid
-Section: Development
-Priority: optional
+Package: ncurses-term
 Architecture: iphoneos-arm
-Pre-Depends: dpkg (>= 1.14.25-8), libplist3
-Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Version: 2:2.1.2.7+g5420cb5q-2
-Filename: debs//ldid_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
-Size: 66236
-MD5sum: 29a63f6d6ea547ebaa748b6a71003fb4
-SHA1: 03d2824eb894c81ef28837a6a72e78c5bc9a59ca
-SHA256: a6a94ee5b193bedaa9bc36fcb05d1acdfcda4ac87a795693f8eb2fc8f09e2c1f
-Description: pseudo-codesign Mach-O files
-Name: Link Identity Editor
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Version: 6.2-1
+Section: Procursus
+Depends: ncurses
+Name: FAKE/EMPTY ncurses-term
+Description: Fake/empty dependency for Procursus packages
+Filename: debs/fake_ncurses-term_6.2-1_iphoneos-arm.deb
+Size: 580
+MD5sum: 3935ef0c4405cf9460a884214e8b7787
+SHA1: b04d65aedd2799554bf77a4f8e86c778bf6fbccf
+SHA256: 894aa336337c42e0b9eaf647a4e8a70b456872fc16b77329e452cc1e493a0c76
+
+Package: gh
+Architecture: iphoneos-arm
+Version: 1.3.0
+Section: Procursus
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 38736
+Filename: debs/gh_1.3.0_iphoneos-arm.deb
+Size: 6273782
+MD5sum: c2ff99920a8eb2ee07dfe6cef31adffa
+SHA1: d627f9748bd4d39e6eb8aeae108b62a852227e1b
+SHA256: d7856390263fcae9924b03f75b4f172eced6e82d5b755fdd294bdabeec147c67
+Description: GitHub command-line tool
+Tag: purpose::console, role::hacker
+Name: GitHub CLI
+
+Package: golang-1.15-go
+Architecture: iphoneos-arm
+Version: 1.15.7
+Section: Procursus
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 594584
+Depends: golang-1.15-src (>= 1.15.7), clang
+Filename: debs/golang-1.15-go_1.15.7_iphoneos-arm.deb
+Size: 79875856
+MD5sum: 9f70800fa13cf921496ddaf9bff941bf
+SHA1: 7652ec22559b9838cf80953405c549902b92a740
+SHA256: 5bf0b86dba322f756cdac5c5ca3d1d23db336875b04bb922dd3bc54d39999305
+Homepage: https://golang.org
+Description: Go programming language compiler, linker, compiled stdlib
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides an assembler, compiler, linker, and compiled libraries
+ for the Go programming language.
+ .
+ Go supports cross-compilation, but as of Go 1.5, it is no longer necessary to
+ pre-compile the standard library inside GOROOT for cross-compilation to work.
+
+Package: golang-1.15-src
+Architecture: iphoneos-arm
+Version: 1.15.7
+Section: Procursus
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 225120
+Filename: debs/golang-1.15-src_1.15.7_iphoneos-arm.deb
+Size: 20126018
+MD5sum: cae7510b24be2e56072247ab31bd70c3
+SHA1: 3ba813549b7f67518eca92eb22a75648cb0f97db
+SHA256: 2abf79ab883f62669c73570ae66f0ea1fc0a1d31929be79a2f2184c398e5fd7d
+Homepage: https://golang.org
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides the Go programming language source files needed for
+ cross-compilation.
+
+Package: golang-go
+Architecture: all
+Version: 1.15.7
+Section: Procursus
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: golang-1.15-go (>= 1.15.7)
+Filename: debs/golang-go_1.15.7_iphoneos-arm.deb
+Size: 1208
+MD5sum: 630a0c7d1dcb98cc9e2a93ab0e2dd19f
+SHA1: c53f8ab1bc96ff0348ab254d2e699d16cf716fc4
+SHA256: 4f6e3b1d1735b1e7da82b7b2cdbcb4caa2f4f6ed9fe35d635c646df46d8e754a
+Homepage: https://golang.org
+Description: Go programming language compiler, linker, compiled stdlib
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This is a dependency package that depends on the default Go toolchain and
+ compiled standard library. It is only built on architectures that have a
+ native toolchain ("gc compiler"). Packages that want to build with whichever
+ of gc or gccgo is available should depend on golang-any.
