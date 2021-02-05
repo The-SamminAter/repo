@@ -42,16 +42,30 @@ Author: tastic1
 
 Package: pojavlauncher
 Architecture: iphoneos-arm
-Version: 02.02.2021
+Version: 2021.02.02
 Section: PojavLauncher
 Depends: openjdk-16-jre
 Name: PojavLauncher
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_02.02.2021_iphoneos-arm.deb
-Size: 12754642
-MD5sum: 430fdd8a130077a23def38db1a8d2e1d
-SHA1: 5389dbf359a6bcdf9e8fad55c69bbe49150cebb1
-SHA256: fa09273f4aab6c1c0c229a2c817220d9de628c997b969a7d89a147146eedabd4
+Filename: debs/pojavlauncher_2021.02.02_iphoneos-arm.deb
+Size: 12754634
+MD5sum: bfe13832ddba4a09a58aed9ec504b543
+SHA1: 6920a57b59af0eede32f5c7c594228b0a1fa0db1
+SHA256: 3399cbf492788578b94440f81658c8bd6a2c0004c6d1c3825924cd9f7376f787
+Maintainer: DuyKhanhTran
+
+Package: pojavlauncher
+Architecture: iphoneos-arm
+Version: 2021.02.04
+Section: PojavLauncher
+Depends: openjdk-16-jre
+Name: PojavLauncher
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Filename: debs/pojavlauncher_2021.02.04_iphoneos-arm.deb
+Size: 12755076
+MD5sum: 3d8093d13202f02ea34b53ad393f7835
+SHA1: 1c0b703d215cc3d3299d9b5208896c9e2c575887
+SHA256: 0a7b7ba59828f10ec325f197a8020bdf56018e8d7fb97c28f088f156c79d61ed
 Maintainer: DuyKhanhTran
 
 Package: openjdk-16-jre
