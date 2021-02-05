@@ -147,6 +147,27 @@ SHA1: c5b2f174d4f6242920fa07606369c47c6e9d33b3
 SHA256: 5650b04f19362ae96f56b8efa9e6fc6ffe96277f29c3704456363a48b0dc1955
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
+Package: libpg
+Architecture: iphoneos-arm
+Version: 10.5-1
+Section: MCApollo
+Pre-Depends: dpkg
+Depends: readline, openssl
+Name: libpg
+Description: Athena Project | Compiled for ARM64.
+	Object-relational database system.
+	|
+	If you know anything about IPC/Shared memory usage (sys/shm.h) in iOS, please get in touch.
+	Postgresql seems like it needs a entitlement for shared memory and I cannot resolve it.
+libpg_10.5-1_iphoneos-arm.deb
+Size: 1462764
+MD5sum: 9c9e685060a726ce599dd11cafd0ae9f
+SHA1: 41e03a00ead592fcda933a52074759d688d521b9
+SHA256: 9b616bb75752a07c565bf2e6c07c6a78193ed17441c940a091e3a5274ea2609f
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Homepage: https://www.postgresql.org/
+Tag: purpose::library
+
 Package: libusb
 Architecture: iphoneos-arm
 Version: 1.0.23-1
@@ -177,6 +198,24 @@ SHA1: 3ee3910948c4a8ad7478395d3f500b3a8dec7e2e
 SHA256: a8839c5f3384046b09b303391670e4bee929a2afd24e0f129382727a258f8fa0
 Maintainer: Mac C. <MCApollo@protonmail.com>
 
+Package: libxslt
+Architecture: iphoneos-arm
+Version: 1.1.32-1
+Section: MCApollo
+Pre-Depends: dpkg
+Depends: libxml2, xz, zlib
+Name: libxslt
+Description: Athena Project | Compiled for ARM64.
+	C XSLT library for GNOME
+Filename: debs/libxslt_1.1.32-1_iphoneos-arm.deb
+Size: 311428
+MD5sum: 2e7d05650c25a42fa7fef7ffc303c059
+SHA1: 6a17f04996a86f8d38992a90a51c3e7682fb2a01
+SHA256: a7f5704d01db79c54395697fbc0283446229c0007f5d22d53fe07aa57aab2b5b
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com> 
+Homepage: http://xmlsoft.org/XSLT/
+Tag: purpose::library
+
 Package: libusb
 Architecture: iphoneos-arm
 Version: 1.0.23-3
@@ -191,6 +230,41 @@ MD5sum: 9c2400c55ccaaeaac5d08afed6f876f8
 SHA1: 6cab561d1817f89881918dffe592138e68adab1b
 SHA256: ae956aa4d3de06d7ecbdefa73d3c9dd9ff352329a034649a586ed828c5b4a4d2
 Maintainer: Mac C. <MCApollo@protonmail.com>
+
+Package: sqlite
+Architecture: iphoneos-arm
+Version: 3.29.0-3
+Section: MCApollo
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline
+Name: sqlite
+Description: Command-line interface for SQLite
+Filename: debs/sqlite_3.29.0-3_iphoneos-arm.deb
+Installed-Size: 3964
+Size: 940276
+MD5sum: 0b623b57f3c25650625c453cbe044e0a
+SHA1: fff10d66c916304c35b331aea13a3e7a04f39d15
+SHA256: 7d171119cf4fb48c4c596f8c3eefa7a255c9a8a70c81df7a816b23e622a043be
+Maintainer: Mac C. <MCApollo@protonmail.com>
+
+Package: zlib
+Architecture: iphoneos-arm
+Version: 1.2.11-1
+Section: MCApollo
+Pre-Depends: dpkg
+Name: zlib
+Description: Athena Project | Compiled for ARM64.
+	General-purpose lossless data-compression library
+Filename: debs/zlib_1.2.11-1_iphoneos-arm.deb
+Size: 76844
+MD5sum: 4ece2dfe5efe23f98b90b25f98112377
+SHA1: c5de07f2bad1ed483e0553697a1d9be1a52d0afe
+SHA256: 8a12cb896f8b1a8ffe0fdf61bc3137f62ff9c2fa552f41e0d94ada9f44d9141a
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com> 
+Homepage: https://zlib.net/
+Tag: purpose::library
+
+
 
 Package: libncursesw6
 Architecture: iphoneos-arm
