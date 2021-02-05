@@ -12,6 +12,20 @@ SHA256: 6aa3d88dde9bcb5f611c6f08dd2abbff64724b7432133e16d1c2dba77fa9e1ba
 Author: The-SamminAter
 Maintainer: The-SamminAter
 
+Package: cpulimit
+Architecture: iphoneos-arm
+Version: 0.2
+Section: Utilities
+Name: cpulimit
+Description: CPU usage limiter
+Installed-Size: 59168
+Filename: debs/cpulimit_0.2_iphoneos-arm.deb
+Size: 11872
+MD5sum: fd6be09c3ea1c82d1bdcad6a349a867d
+SHA1: 63e51b5f303d20d6809ab605c066c270c051d2d6
+SHA256: 11fc5ad0dbccf9ae7cb8003f276349c9834164d6df239f51823cf406ad4b2b03
+Author: opsengine <marlonx80@hotmail.com>
+
 Package: firecat
 Architecture: iphoneos-arm
 Version: git-b5205c8
