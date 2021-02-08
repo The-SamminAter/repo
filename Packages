@@ -47,11 +47,11 @@ Section: PojavLauncher
 Depends: openjdk-16-jre
 Name: PojavLauncher
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_2021.02.02_iphoneos-arm.deb
-Size: 12754634
-MD5sum: bfe13832ddba4a09a58aed9ec504b543
-SHA1: 6920a57b59af0eede32f5c7c594228b0a1fa0db1
-SHA256: 3399cbf492788578b94440f81658c8bd6a2c0004c6d1c3825924cd9f7376f787
+Filename: debs/pojavlauncher_2021.02.07_iphoneos-arm.deb
+Size: 9296800
+MD5sum: f038193f095161ee5d709234ce450878
+SHA1: 8a23909b1013672bb7118d90cceeef4430094ab6
+SHA256: 136e2b6a61178d354d7cefd6d8e51c70504553a6013ac0a1d651c980e8b78a62
 Maintainer: DuyKhanhTran
 
 Package: pojavlauncher
