@@ -42,58 +42,16 @@ Author: tastic1
 
 Package: pojavlauncher
 Architecture: iphoneos-arm
-Version: 2021.02.02
+Version: 1.0
 Section: PojavLauncher
 Depends: openjdk-16-jre
 Name: PojavLauncher
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_2021.02.02_iphoneos-arm.deb
-Size: 12754634
-MD5sum: bfe13832ddba4a09a58aed9ec504b543
-SHA1: 6920a57b59af0eede32f5c7c594228b0a1fa0db1
-SHA256: 3399cbf492788578b94440f81658c8bd6a2c0004c6d1c3825924cd9f7376f787
-Maintainer: DuyKhanhTran
-
-Package: pojavlauncher
-Architecture: iphoneos-arm
-Version: 2021.02.04
-Section: PojavLauncher
-Depends: openjdk-16-jre
-Name: PojavLauncher
-Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_2021.02.04_iphoneos-arm.deb
-Size: 12755076
-MD5sum: 3d8093d13202f02ea34b53ad393f7835
-SHA1: 1c0b703d215cc3d3299d9b5208896c9e2c575887
-SHA256: 0a7b7ba59828f10ec325f197a8020bdf56018e8d7fb97c28f088f156c79d61ed
-Maintainer: DuyKhanhTran
-
-Package: pojavlauncher
-Architecture: iphoneos-arm
-Version: 2021.02.07
-Section: PojavLauncher
-Depends: openjdk-16-jre
-Name: PojavLauncher
-Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_2021.02.07_iphoneos-arm.deb
-Size: 9296800
-MD5sum: f038193f095161ee5d709234ce450878
-SHA1: 8a23909b1013672bb7118d90cceeef4430094ab6
-SHA256: 136e2b6a61178d354d7cefd6d8e51c70504553a6013ac0a1d651c980e8b78a62
-Maintainer: DuyKhanhTran
-
-Package: pojavlauncher
-Architecture: iphoneos-arm
-Version: 2021.02.11
-Section: PojavLauncher
-Depends: openjdk-16-jre
-Name: PojavLauncher
-Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_2021.02.11_iphoneos-arm.deb
-Size: 9309744
-MD5sum: 14c3f49fa217697832202c5cb529522b
-SHA1: 5472fb9af42cc71a85bcbcd12f04b02db4076cbc
-SHA256: 288055d18a36916b3e200ad9bcd64a3ab7fd24d793ecf9c6b95a986c2a313677
+Filename: debs/pojavlauncher_1.0_iphoneos-arm.deb
+Size: 9377376
+MD5sum: 81e0794562a0bf6cce8f6f8c27c1b0ec
+SHA1: cd00ce9b37b8270fe3b696fae08a83617bdaffa9
+SHA256: b760d1947fe9d853dbbf8b20a5f8576a198d24e79559b63a1e3e50c34a73f907
 Maintainer: DuyKhanhTran
 
 Package: openjdk-16-jre
