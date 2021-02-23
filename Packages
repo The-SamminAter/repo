@@ -40,18 +40,18 @@ SHA1: be5711fb8eca6ad36da0bf19fc4279361e830c51
 SHA256: d96e75da738ac4b647f0829e5915bb0cf08ed3628bcfeddcb66791748ea7263f
 Author: tastic1
 
-Package: pojavlauncher
+Package: pojavlauncher-release
 Architecture: iphoneos-arm
 Version: 1.0
-Section: PojavLauncher
+Section: PojavLauncher Release
 Depends: openjdk-16-jre
 Name: PojavLauncher
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
-Filename: debs/pojavlauncher_1.0_iphoneos-arm.deb
-Size: 9377376
-MD5sum: 81e0794562a0bf6cce8f6f8c27c1b0ec
-SHA1: cd00ce9b37b8270fe3b696fae08a83617bdaffa9
-SHA256: b760d1947fe9d853dbbf8b20a5f8576a198d24e79559b63a1e3e50c34a73f907
+Filename: debs/pojavlauncher-release_1.0_iphoneos-arm.deb
+Size: 9375440
+MD5sum: 78e39234b23754fc5ca062e75d3f60fe
+SHA1: e189c7b440b2e97af9f20609ae0c6884003b560f
+SHA256: 964db93f03ec49f02fbbdd551e5ad52250995b1c0ab4089b384c00f381848039
 Maintainer: DuyKhanhTran
 
 Package: openjdk-16-jre
