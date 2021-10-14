@@ -323,7 +323,18 @@ Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
 Homepage: https://zlib.net/
 Tag: purpose::library
 
-
+Package: ncurses
+Architecture: iphoneos-arm
+Version: 6.1-1
+Section: Procursus
+Depends: libncursesw6, ncurses-term
+Name: FAKE/EMPTY ncurses
+Description: Fake/empty dependency for Procursus users
+Filename: debs/fake_ncurses_6.1-1_iphoneos-arm.deb
+Size: 588
+MD5sum: 8ef5386022d22f21cdf30b5670227b77
+SHA1: 7671dfd91c31690b9b3bdff7ceba05d79a4b7c41
+SHA256: c15363aea6ac7f3c1fea2c429e431061fa1847b65054cbc627e1132a2d9e42bc
 
 Package: libncursesw6
 Architecture: iphoneos-arm
