@@ -1,3 +1,18 @@
+Package: com.rpgfarm.noti-fi
+Name: Noti-Fi
+Depends: mobilesubstrate, firmware (>=11)
+Architecture: iphoneos-arm
+Description: Android WiFi connection notification
+Maintainer: The-SamminAter
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 2.0-mod-3+debug
+Installed-Size: 308
+Size: 50290
+MD5sum: 2217a0faa84960a7335efe13d403dffd
+SHA1: cc4680267ea542910e6c36e4db2feb27343ad398
+SHA256: b4ac991f1b8b1f0680f468972ec8866583b97f382e2a77f9f96b69800ac8f6ad
+
 Package: com.the-samminater.disablescreentime
 Architecture: iphoneos-arm
 Version: 2.1
