@@ -1,3 +1,14 @@
+Package: proxmark3
+Name: proxmark3
+Description: The Iceman fork of Proxmark3 / RFID / NFC reader, writer, sniffer and emulator
+Homepage: https://github.com/RfidResearchGroup/proxmark3
+Architecture: iphoneos-arm
+Version: 4.16191
+Section: Utilities
+Author: RfidResearchGroup
+Maintainer: The-SamminAter
+Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2
+
 Package: com.rpgfarm.noti-fi
 Name: Noti-Fi
 Depends: mobilesubstrate, firmware (>=11)
