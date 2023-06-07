@@ -3,6 +3,7 @@ Name: Noti-Fi
 Depends: mobilesubstrate, firmware (>=11)
 Architecture: iphoneos-arm
 Description: Android WiFi connection notification
+Filename: debs/com.rpgfarm.noti-fi_2.0-mod-3+debug_iphoneos-arm.deb
 Maintainer: The-SamminAter
 Author: Baw Appie <pp121324@gmail.com>
 Section: Tweaks
