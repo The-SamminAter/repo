@@ -14,6 +14,7 @@ Name: Noti-Fi
 Depends: mobilesubstrate, firmware (>=11)
 Architecture: iphoneos-arm
 Description: Android WiFi connection notification
+Filename: debs/com.rpgfarm.noti-fi_2.0-mod-3+debug_iphoneos-arm.deb
 Maintainer: The-SamminAter
 Author: Baw Appie <pp121324@gmail.com>
 Section: Tweaks
@@ -275,45 +276,6 @@ SHA256: 8a12cb896f8b1a8ffe0fdf61bc3137f62ff9c2fa552f41e0d94ada9f44d9141a
 Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com> 
 Homepage: https://zlib.net/
 Tag: purpose::library
-
-Package: ncurses
-Architecture: iphoneos-arm
-Version: 6.1-1
-Section: Procursus
-Depends: libncursesw6, ncurses-term
-Name: FAKE/EMPTY ncurses
-Description: Fake/empty dependency for Procursus users
-Filename: debs/fake_ncurses_6.1-1_iphoneos-arm.deb
-Size: 588
-MD5sum: 8ef5386022d22f21cdf30b5670227b77
-SHA1: 7671dfd91c31690b9b3bdff7ceba05d79a4b7c41
-SHA256: c15363aea6ac7f3c1fea2c429e431061fa1847b65054cbc627e1132a2d9e42bc
-
-Package: libncursesw6
-Architecture: iphoneos-arm
-Version: 6.2-1
-Section: Procursus
-Depends: ncurses
-Name: FAKE/EMPTY libncursesw6
-Description: Fake/empty dependency for Procursus packages
-Filename: debs/fake_libncursesw6_6.2-1_iphoneos-arm.deb
-Size: 582
-MD5sum: 466672bb31a6788fdfc65fa2be8ec3d4
-SHA1: 67b93835b88e734e0628d4129b90c7b85c8d94ed
-SHA256: 1c5cee22983b962c5b34771ce40e1530a1b8c77ed1021edda0eff0c156237602
-
-Package: ncurses-term
-Architecture: iphoneos-arm
-Version: 6.2-1
-Section: Procursus
-Depends: ncurses
-Name: FAKE/EMPTY ncurses-term
-Description: Fake/empty dependency for Procursus packages
-Filename: debs/fake_ncurses-term_6.2-1_iphoneos-arm.deb
-Size: 580
-MD5sum: 3935ef0c4405cf9460a884214e8b7787
-SHA1: b04d65aedd2799554bf77a4f8e86c778bf6fbccf
-SHA256: 894aa336337c42e0b9eaf647a4e8a70b456872fc16b77329e452cc1e493a0c76
 
 Package: gh
 Architecture: iphoneos-arm
