@@ -1,6 +1,22 @@
+Package: graphicsmagick
+Name: GraphicsMagick
+Description: supposedly an image processing system
+Filename: debs/graphicsmagick_1.3.40_iphoneos-arm.deb
+Homepage: http://www.graphicsmagick.org/
+Architecture: iphoneos-arm
+Version: 1.3.40
+Section: Utilities
+Author: bfriesen
+Maintainer: The-SamminAter
+Depends: tiff, libjpeg-turbo, png, lzma, bzip2, libxml2, libzstd1
+MD5sum: 42a1f3d005d65c236fd6f0374894fe17
+SHA1: bf965a048ad07cbdfdfad4cde7e459bfb6a7a783
+SHA256: 05fc42dc8fb790dd25a685c5aaaba451ab92c0665e54a3b8fb75a61c85157492
+
 Package: proxmark3
 Name: proxmark3
 Description: The Iceman fork of Proxmark3 / RFID / NFC reader, writer, sniffer and emulator
+Filename: debs/proxmark3_4.16191_iphoneos-arm.deb
 Homepage: https://github.com/RfidResearchGroup/proxmark3
 Architecture: iphoneos-arm
 Version: 4.16191
@@ -8,6 +24,37 @@ Section: Utilities
 Author: RfidResearchGroup
 Maintainer: The-SamminAter
 Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2
+MD5sum: 7d37841c06d866369c0f54999846e7c3
+SHA1: e0154f57d852383c2de6c0244b724125b5b5f19a
+SHA256: 2a51f1df8f4f1e9bdacd326b1924a910cdc3416eb7b48efd333cadeb54ccadd0
+
+Package: sift
+Name: sift
+Description: supposedly a grep alternative
+Filename: debs/sift_0.9.0_iphoneos-arm.deb
+Homepage: http://sift-tool.org
+Architecture: iphoneos-arm
+Version: 0.9.0
+Section: Utilities
+Author: svent
+Maintainer: The-SamminAter
+MD5sum: 4caf66dcc64079a4c005147c109eb4c5
+SHA1: 78908f6d8b4615bd6ce085e7714bd89c5962f3ee
+SHA256: 98b2b23d630cbaa20b98037b1ddb832bc98a96676356eb1abcffa620dc41b2bf
+
+Package: sift
+Name: sift
+Description: supposedly a grep alternative
+Filename: debs/sift_0.9.0_iphoneos-arm64.deb
+Homepage: http://sift-tool.org
+Architecture: iphoneos-arm64
+Version: 0.9.0
+Section: Utilities
+Author: svent
+Maintainer: The-SamminAter
+MD5sum: 3b9be25f1f9a2a9ce2dce80c7e2f7a6d
+SHA1: 67962f74fabc0a0fbfa539b3ee5ca5086e25dc8b
+SHA256: 58236ee83999a960a2207fb4e753f60b9237e88745611d0c803bbdb57e49cbe6
 
 Package: com.rpgfarm.noti-fi
 Name: Noti-Fi
@@ -24,6 +71,21 @@ Size: 50290
 MD5sum: 2217a0faa84960a7335efe13d403dffd
 SHA1: cc4680267ea542910e6c36e4db2feb27343ad398
 SHA256: b4ac991f1b8b1f0680f468972ec8866583b97f382e2a77f9f96b69800ac8f6ad
+
+Package: com.rpgfarm.noti-fi
+Name: Noti-Fi
+Depends: mobilesubstrate, firmware (>=15)
+Architecture: iphoneos-arm64
+Description: Android WiFi connection notification
+Filename: debs/com.rpgfarm.noti-fi_2.0-mod-3+debug_iphoneos-arm64.deb
+Maintainer: The-SamminAter
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 2.0-mod-3+debug
+Installed-Size: 308
+MD5sum: d0e0f528648c16205098b3a089c747f7
+SHA1: 290a5090cceb5cf925bddfdbe0b8e86ca21291b7
+SHA256: cc880f8a03f4ffe713378586911d896ec115cc1b180ff260f36abd19b67fd6b7
 
 Package: com.the-samminater.disablescreentime
 Architecture: iphoneos-arm
