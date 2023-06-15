@@ -38,9 +38,10 @@ Version: 0.9.0
 Section: Utilities
 Author: svent
 Maintainer: The-SamminAter
-MD5sum: 4caf66dcc64079a4c005147c109eb4c5
-SHA1: 78908f6d8b4615bd6ce085e7714bd89c5962f3ee
-SHA256: 98b2b23d630cbaa20b98037b1ddb832bc98a96676356eb1abcffa620dc41b2bf
+Depends: libiosexec1
+MD5sum: 458fae389cfa8b771af18b8abbf30689
+SHA1: c2bdcfe8f1516a6a1213315777aab81611cc6e70
+SHA256: 7a97489377dac152fb05814f5abb019b1eb41c44cce177fc8b120b1ff44b0bce
 
 Package: sift
 Name: sift
@@ -52,9 +53,25 @@ Version: 0.9.0
 Section: Utilities
 Author: svent
 Maintainer: The-SamminAter
-MD5sum: 3b9be25f1f9a2a9ce2dce80c7e2f7a6d
-SHA1: 67962f74fabc0a0fbfa539b3ee5ca5086e25dc8b
-SHA256: 58236ee83999a960a2207fb4e753f60b9237e88745611d0c803bbdb57e49cbe6
+Depends: libiosexec1, xinaa15 | emt.paisseon.xinamine
+MD5sum: 5aa6b0e01098d7a3a4646ff0dc0bb229
+SHA1: 7a138b59e08a964841cfee3d1be8013de50a6a33
+SHA256: c4d4a41357bc04457dfea5dd5f585b08696f22aaa9569b46ae41ee080c8a4e59
+
+Package: libiosexec1
+Name: libiosexec1
+Description: shim for execve w/ shell script support
+Filename: debs/libiosexec1_1.3.1_iphoneos-arm.deb
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Architecture: iphoneos-arm
+Version: 1.3.1
+Section: Procursus
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1)
+Installed-Size: 76
+MD5sum: f17dd65ac87696943006c1086f071fc9
+SHA1: 080a9a36450a47d22f6f9a3820a94a86bd7e1a3f
+SHA256: ed97338bd91775ed638bc8cc2fe80fb00de7eef57d2acc9d395c2b82ccfaa54c
 
 Package: com.rpgfarm.noti-fi
 Name: Noti-Fi
