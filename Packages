@@ -28,6 +28,34 @@ MD5sum: 7d37841c06d866369c0f54999846e7c3
 SHA1: e0154f57d852383c2de6c0244b724125b5b5f19a
 SHA256: 2a51f1df8f4f1e9bdacd326b1924a910cdc3416eb7b48efd333cadeb54ccadd0
 
+Package: gnu-binutils-extra
+Name: gnu-binutils-extra
+Description: Missing GNU binutils - addr2line, cxxfilt, elfedit, libtool, nm-new, size, and strings
+Filename: debs/gnu-binutils-extra_2.40.50.20230616_iphoneos-arm.deb
+Homepage: https://www.gnu.org/software/binutils/
+Architecture: iphoneos-arm
+Version: 2.40.50.20230616
+Section: Utilities
+Author: FSF
+Maintainer: The-SamminAter
+MD5sum: f54e5d13fd5af67627b818932d3e7617
+SHA1: 905d3478f792cc22df2c094e35a9063f29070407
+SHA256: 017e797df17e2a6cdd62004cdcdb97060cbc4e4fa660a09ed48fc2a3918ee253
+
+Package: gnu-binutils-extra
+Name: gnu-binutils-extra
+Description: Missing GNU binutils - addr2line, cxxfilt, elfedit, libtool, nm-new, size, and strings
+Filename: debs/gnu-binutils-extra_2.40.50.20230616_iphoneos-arm64.deb
+Homepage: https://www.gnu.org/software/binutils/
+Architecture: iphoneos-arm64
+Version: 2.40.50.20230616
+Section: Utilities
+Author: FSF
+Maintainer: The-SamminAter
+MD5sum: a3b4dc23a12fcde2d599d4bb73dfe2e3
+SHA1: 806d80767aa80772507ee0fdc12ebe97f5a434e5
+SHA256: 087fec333d32e75c48779a6b736715c256eae2778f34759b04ba7c3f27e979c2
+
 Package: sift
 Name: sift
 Description: supposedly a grep alternative
