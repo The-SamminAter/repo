@@ -37,10 +37,10 @@ Version: git-8c142ca
 Section: Utilities
 Author: lotuspar
 Maintainer: The-SamminAter
-Depends: libusb-1.0.0
-MD5sum: 47507429ff575bb3afe11c00f991c550
-SHA1: 60a5fb5fda389b5be0addade1ff54aa6b8832f2e
-SHA256: 217533d6d26e7c667567e2f219546601335f1aa4c09e639924d87357355e0ff1
+Depends: libusb-1.0-0
+MD5sum: 1b533cbad9989775846dd201cd69face
+SHA1: 71bf4eac4943f531e2314b74584a86cdbdf0e62b
+SHA256: e4da1b0d6f86754420567d2f60fcc58f5daa235bda39db61fb996c1cdc93f240
 
 Package: gnu-binutils-extra
 Name: gnu-binutils-extra
