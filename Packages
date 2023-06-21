@@ -23,10 +23,24 @@ Version: 4.16191
 Section: Utilities
 Author: RfidResearchGroup
 Maintainer: The-SamminAter
-Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2
-MD5sum: 7d37841c06d866369c0f54999846e7c3
-SHA1: e0154f57d852383c2de6c0244b724125b5b5f19a
-SHA256: 2a51f1df8f4f1e9bdacd326b1924a910cdc3416eb7b48efd333cadeb54ccadd0
+Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2, usbselfserial
+MD5sum: e7317537d4843666e552bad1a75476ab
+SHA1: a21a666308bf3ad522b6e75996394c786ddd506d
+SHA256: a8326db80c0d01c5155ebc4774dace54c3aa729d3dba3af114212b0a63729c8c
+
+Package: usbselfserial
+Name: usbselfserial
+Description: Talk to a USB serial device without OS drivers! Currently supports CDC ACM and CH34X. Note - vid and pid require 0x prefix.
+Filename: debs/usbselfserial_git-8c142ca_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Version: git-8c142ca
+Section: Utilities
+Author: lotuspar
+Maintainer: The-SamminAter
+Depends: libusb-1.0.0
+MD5sum: 47507429ff575bb3afe11c00f991c550
+SHA1: 60a5fb5fda389b5be0addade1ff54aa6b8832f2e
+SHA256: 217533d6d26e7c667567e2f219546601335f1aa4c09e639924d87357355e0ff1
 
 Package: gnu-binutils-extra
 Name: gnu-binutils-extra
@@ -41,20 +55,6 @@ Maintainer: The-SamminAter
 MD5sum: f54e5d13fd5af67627b818932d3e7617
 SHA1: 905d3478f792cc22df2c094e35a9063f29070407
 SHA256: 017e797df17e2a6cdd62004cdcdb97060cbc4e4fa660a09ed48fc2a3918ee253
-
-Package: gnu-binutils-extra
-Name: gnu-binutils-extra
-Description: Missing GNU binutils - addr2line, cxxfilt, elfedit, libtool, nm-new, size, and strings
-Filename: debs/gnu-binutils-extra_2.40.50.20230616_iphoneos-arm64.deb
-Homepage: https://www.gnu.org/software/binutils/
-Architecture: iphoneos-arm64
-Version: 2.40.50.20230616
-Section: Utilities
-Author: FSF
-Maintainer: The-SamminAter
-MD5sum: a3b4dc23a12fcde2d599d4bb73dfe2e3
-SHA1: 806d80767aa80772507ee0fdc12ebe97f5a434e5
-SHA256: 087fec333d32e75c48779a6b736715c256eae2778f34759b04ba7c3f27e979c2
 
 Package: sift
 Name: sift
