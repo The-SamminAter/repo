@@ -130,6 +130,24 @@ MD5sum: f17dd65ac87696943006c1086f071fc9
 SHA1: 080a9a36450a47d22f6f9a3820a94a86bd7e1a3f
 SHA256: ed97338bd91775ed638bc8cc2fe80fb00de7eef57d2acc9d395c2b82ccfaa54c
 
+Package: plistbuddy
+Version: 2021.08.01
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 112
+Depends: libiosexec1
+Filename: debs/plistbuddy_2021.08.01_iphoneos-arm.deb
+Size: 22728
+MD5sum: ea4f10e0037b464fde2457aa7fea8ef8
+SHA1: ade045d0fe910a9138aa8ccfc2bbd948ea30dec4
+SHA256: 3304477a6fbc28d2a26e56b13ff22243fe40401457d28f2bb71bcba9155e5b94
+Section: Procursus
+Priority: optional
+Homepage: https://www.darlinghq.org
+Description: a property list editor
+ PlistBuddy is a property list editor in macOS. This package is a clone of
+ PlistBuddy from Darling.
+
 Package: com.rpgfarm.noti-fi
 Name: Noti-Fi
 Depends: mobilesubstrate, firmware (>=11)
