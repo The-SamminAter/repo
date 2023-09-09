@@ -1,3 +1,17 @@
+Package: SWIG
+Name: SWIG
+Description: Simplified Wrapper and Interface Generator
+Filename: debs/SWIG_4.1.1_iphoneos-arm.deb
+Homepage: https://swig.org 
+Architecture: iphoneos-arm
+Version: 4.1.1 
+Section: Utilities
+Author: SWIG
+Maintainer: The-SamminAter
+MD5sum: ef5cf3991f0da98e3f56a939dd46e378
+SHA1: 194411af62df5067576d212ddbf163d0059fa319
+SHA256: 3ba1787ed2722eaadc91d3b9af4aa3c5c15206902a28c9c0fd0173809f3b3d7c
+
 Package: graphicsmagick
 Name: GraphicsMagick
 Description: supposedly an image processing system
