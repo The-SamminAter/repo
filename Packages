@@ -30,6 +30,21 @@ SHA256: 05fc42dc8fb790dd25a685c5aaaba451ab92c0665e54a3b8fb75a61c85157492
 Package: proxmark3
 Name: proxmark3
 Description: The Iceman fork of Proxmark3 / RFID / NFC reader, writer, sniffer and emulator
+Filename: debs/proxmark3_4.17140_iphoneos-arm.deb
+Homepage: https://github.com/RfidResearchGroup/proxmark3
+Architecture: iphoneos-arm
+Version: 4.17140
+Section: Utilities
+Author: RfidResearchGroup
+Maintainer: The-SamminAter
+Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2, usbselfserial
+MD5sum: 260e71c11d26e79286c4e9e1dcf906cb
+SHA1: 310f335786f5c5f565fd28cf7a55c1f0d681f566
+SHA256: 26b2ee284b9673aaf52b73de2ec4d46bd6056df742b01634e6790bdf4147dd71
+
+Package: proxmark3
+Name: proxmark3
+Description: The Iceman fork of Proxmark3 / RFID / NFC reader, writer, sniffer and emulator
 Filename: debs/proxmark3_4.16717_iphoneos-arm.deb
 Homepage: https://github.com/RfidResearchGroup/proxmark3
 Architecture: iphoneos-arm
