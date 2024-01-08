@@ -38,9 +38,9 @@ Section: Utilities
 Author: RfidResearchGroup
 Maintainer: The-SamminAter
 Depends: python3.7, libpython3.7, libpython3.7-dev, pkg-config, readline, bzip2, usbselfserial
-MD5sum: db76c702e85c10ac58f069dbd6ae7f80
-SHA1: 234862855372b90ac6c4ad1825d35ce7a51f3cea
-SHA256: 96b26a05e1307c1f743a7b1a8cac34c7520046236752d421e7cd3905c9c0f77c
+MD5sum: 652a7c2a37e12ccd290f64bba6783186
+SHA1: cf8c1ad8cf9664b3d5a48e49bdb071787acdad91
+SHA256: b93175498297df37ecf73530babc9d27d651bc55a03d4a0a300d8d392e761492
 
 Package: proxmark3
 Name: proxmark3
