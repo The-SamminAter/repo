@@ -1,3 +1,15 @@
+Package: libkrw0-plugin
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Procursus
+Depends: libkrw0
+Name: FAKE/EMPTY libkrw0-plugin
+Description: Fake/empty dependency for Palera1n, because why should a fresh jailbreak just work?
+Filename: debs/fake_libkrw0-plugin_0.1_iphoneos-arm64.deb
+MD5sum: adadbde0cc8e15c6c8b15b9aa8b2454c
+SHA1: ac3b00f07f501b3a03e26e6fbd919b5aa2e04680
+SHA256: ffd0cefde10935482f55bf677ea4a21c32edb1e04808bf1ea0ca3b5de4fe7df1
+
 Package: SWIG
 Name: SWIG
 Description: Simplified Wrapper and Interface Generator
